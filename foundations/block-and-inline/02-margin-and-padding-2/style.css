@@ -7,10 +7,16 @@ body {
   padding: 8px;
 }
 
+ .card, .big-button{
+  background: #ffff;
+} 
+ .title ,.content,.button-container{
+  background: #e3f4ff;
+} 
+
 
 .card {
   width: 400px;
-  background: #fff;
   margin: 16px auto;
 
 }
@@ -33,7 +39,7 @@ body {
   text-align: center;
 }
 
-button {
+.big-button {
   border: 1px solid #eee;
   display: block;
   margin: 0 auto;

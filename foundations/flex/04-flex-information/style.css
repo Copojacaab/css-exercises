@@ -1,5 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
@@ -10,8 +11,32 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: center;
 }
 
+.fucking-plants{
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.barberry {
+  max-width: 200px;
+}
+
+.chilli {
+  max-width: 200px;
+}
+
+.pepper {
+  max-width: 200px;
+}
+
+.purple {
+  max-width: 200px;
+}
 /* do not edit this footer */
 .footer {
   position: fixed;
